@@ -1,0 +1,4 @@
+gcc -c items.c;
+gcc -c rooms.c;
+gcc -c adventure.c;
+Makefile:9: recipe for target 'adventure.o' failed

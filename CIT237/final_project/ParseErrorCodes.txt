@@ -1,0 +1,8 @@
+This file describes all the various error codes that are produced by the
+Parser class in the project
+
+0: Syntax error
+1: Incorrect machine type
+2: State or symbol name too long or invalid
+3: Machine components are incomplete
+4: Machine components are invalid

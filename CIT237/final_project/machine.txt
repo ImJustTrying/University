@@ -1,0 +1,11 @@
+FSA;
+
+ALPHA : { a b c };
+STATE : { q0 q1 q2 };
+START : q0;
+FINAL : { q0 q2 };
+
+q0 : (q0 a) (q0 b) (q2 c);
+q1 : (q2 a) (q1 b) (q0 c);
+q2 : (q1 a) (q0 b) (q2 c);
+
